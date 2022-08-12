@@ -17,6 +17,7 @@ $White: hsl(0, 0%, 100%);
 }
 
 html{
+    margin: 3px;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -25,7 +26,6 @@ html{
 }
 
 body{
-    margin: 0;
     font-size: 14px;
     font-family: Montserrat, senrit;
     background-color: $Cream;
@@ -122,6 +122,7 @@ body{
             }
             .img-product-mobile{
                 display: block;
+                border-radius: 5px 5px 0px 0px;
             }
         }
 
