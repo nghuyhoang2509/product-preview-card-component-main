@@ -8,15 +8,19 @@
   margin: 0;
 }
 
+html {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
-  flex-direction: column;
   font-size: 14px;
   font-family: Montserrat, senrit;
   background-color: hsl(30deg, 38%, 92%);
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
 }
 body .card {
   margin: auto;
